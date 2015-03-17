@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'aws-sdk', '< 2.0'
 gem 'devise', '~> 3.4.1'
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
@@ -20,5 +20,4 @@ group :production do
      gem 'rails_12factor'
 end
 gem 'paperclip', '~> 4.2.1'
-gem 'aws-sdk', '< 2.0'
 
