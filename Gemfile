@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ruby', '<2.0.0'
 gem 'aws-sdk', '< 2.0'
 gem 'devise', '~> 3.4.1'
 gem 'rails', '4.1.6'
